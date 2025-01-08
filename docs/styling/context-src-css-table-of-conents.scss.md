@@ -1,4 +1,4 @@
-# Table of Contents (table-of-contents.scss)
+# Table of Contents (context-src-css-table-of-contents.scss)
 
 ## Overview
 
@@ -35,3 +35,9 @@ To customize this file for your specific needs, you can modify various aspects o
    If you want to apply backdrop filters to create a frosted glass effect, uncomment and customize the `[data-theme="light"] .table-of-contents` and `[data-theme="dark"] .table-of-contents` selectors. Adjust the `backdrop-filter`, `background-color`, and other properties as needed.
 
 Remember to test your changes in both light and dark themes to ensure consistency and readability across different color schemes.
+
+## File Structure and Naming Convention
+
+It's important to note that the file has been renamed from its previous incorrect name to 'context-src-css-table-of-contents.scss' for consistency and accuracy. This naming convention aligns with the project's structure and makes it easier to locate and manage the file within the codebase.
+
+When working with this file or creating similar stylesheets, be sure to follow the established naming conventions to maintain a well-organized and easily navigable project structure.
