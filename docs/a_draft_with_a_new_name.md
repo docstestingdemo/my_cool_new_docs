@@ -146,7 +146,10 @@ Remember, folks: With great power comes great responsibility to make your code a
 
 * Break down tasks into manageable user stories
 
-*
+* |   |   |   |
+  | - | - | - |
+  |   |   |   |
+  |   |   |   |
 
 ## Continuous Learning
 
