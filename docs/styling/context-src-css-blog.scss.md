@@ -69,11 +69,77 @@ Remember to test your changes thoroughly across different devices and browsers t
 
 ## Customize Styling
 
-If you want to customize styling, you can refer to the Docusaurus documentation on styling and layout. The documentation provides comprehensive guidance on how to modify the appearance of your site, including:
+To further customize the blog styling, you can refer to the following examples:
 
-1. Using CSS modules
-2. Implementing global styles
-3. Customizing the theme
-4. Creating and using custom components
+1. **Adjusting blog post layout:**
+   ```scss
+   .blog-post-page {
+     .blog-post {
+       max-width: 800px;
+       margin: 0 auto;
+     }
+   }
+   ```
 
-Additionally, you can explore the `src/css` directory in your Docusaurus project for other SCSS files that may affect the overall styling of your site. By understanding the structure and hierarchy of these files, you can make targeted changes to achieve your desired look and feel while maintaining consistency across your blog and documentation pages.
+2. **Customizing blog list item appearance:**
+   ```scss
+   .blog-list-page {
+     .blog-list-item {
+       border: 1px solid #ddd;
+       border-radius: 8px;
+       padding: 1rem;
+       margin-bottom: 1rem;
+       
+       &:hover {
+         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+       }
+     }
+   }
+   ```
+
+3. **Styling blog post metadata:**
+   ```scss
+   .blog-post-meta {
+     font-size: 0.9rem;
+     color: #666;
+     margin-bottom: 1rem;
+     
+     .blog-post-date {
+       font-weight: bold;
+     }
+   }
+   ```
+
+4. **Enhancing code block appearance:**
+   ```scss
+   .blog-post {
+     pre {
+       background-color: #f4f4f4;
+       border-radius: 4px;
+       padding: 1rem;
+       overflow-x: auto;
+     }
+   }
+   ```
+
+5. **Improving blog post navigation:**
+   ```scss
+   .blog-post-nav {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 2rem;
+     padding-top: 1rem;
+     border-top: 1px solid #ddd;
+     
+     a {
+       text-decoration: none;
+       color: #0077cc;
+       
+       &:hover {
+         text-decoration: underline;
+       }
+     }
+   }
+   ```
+
+These examples demonstrate how to customize various aspects of your blog's appearance. Remember to adapt these styles to fit your specific design preferences and requirements.
