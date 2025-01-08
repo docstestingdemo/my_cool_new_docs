@@ -146,13 +146,6 @@ Remember, folks: With great power comes great responsibility to make your code a
 
 * Break down tasks into manageable user stories
 
-* |                   |            |
-  | ----------------- | ---------- |
-  | Header one        | Header two |
-  | really good table |            |
-  |                   |            |
-  |                   |            |
-
 ## Continuous Learning
 
 * Stay updated with new technologies and best practices
