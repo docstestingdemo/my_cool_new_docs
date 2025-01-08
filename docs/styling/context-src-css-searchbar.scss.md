@@ -6,17 +6,30 @@ The `searchbar.scss` file is a crucial component of the Docusaurus template's st
 
 Key features of this file include:
 
-1. Centering and positioning of the search bar
-2. Responsive design for various screen sizes (mobile, tablet, desktop)
-3. Customization of the search button appearance
-4. Theme-specific styling for light and dark modes
-5. Z-index management for proper layering of UI elements
+1. Search bar layout and positioning
+2. Centering and positioning of the search bar
+3. Responsive design for various screen sizes (mobile, tablet, desktop)
+4. Customization of the search button appearance
+5. Theme-specific styling for light and dark modes
+6. Z-index management for proper layering of UI elements
 
 ## How can I customize this for my usecase
 
 To customize the `searchbar.scss` file for your specific needs, you can make the following adjustments:
 
-1. **Search Bar Positioning**: 
+1. **Search Bar Layout**: 
+   Modify the overall layout of the search bar by adjusting the `.searchBar` class. This can include changes to width, height, and general positioning.
+
+   ```scss
+   .searchBar {
+     width: 100%;
+     max-width: 500px;
+     margin: 0 auto;
+     // Add more custom styles as needed
+   }
+   ```
+
+2. **Search Bar Positioning**: 
    Modify the `.centerSearchBar` class to change the position and layout of the search bar. Adjust the `top`, `right`, `bottom`, and `left` properties as needed.
 
    ```scss
@@ -28,7 +41,7 @@ To customize the `searchbar.scss` file for your specific needs, you can make the
    }
    ```
 
-2. **Responsive Breakpoints**: 
+3. **Responsive Breakpoints**: 
    Adjust the media query breakpoints to match your desired responsive behavior. Current breakpoints are set at 600px, 967px, and 996px.
 
    ```scss
@@ -37,7 +50,7 @@ To customize the `searchbar.scss` file for your specific needs, you can make the
    }
    ```
 
-3. **Search Button Styling**: 
+4. **Search Button Styling**: 
    Customize the appearance of the search button by modifying the `.navbar .aa-DetachedSearchButton` class. You can change the border color, background, and dimensions.
 
    ```scss
@@ -48,7 +61,7 @@ To customize the `searchbar.scss` file for your specific needs, you can make the
    }
    ```
 
-4. **Theme-Specific Colors**: 
+5. **Theme-Specific Colors**: 
    Adjust the colors for light and dark themes by modifying the `[data-theme='light']` selectors. You can change text colors, background colors, and other theme-specific properties.
 
    ```scss
@@ -57,7 +70,7 @@ To customize the `searchbar.scss` file for your specific needs, you can make the
    }
    ```
 
-5. **Z-index Adjustments**: 
+6. **Z-index Adjustments**: 
    If you're having issues with element stacking, you can modify the z-index values to ensure proper layering of UI components.
 
    ```scss
@@ -66,7 +79,7 @@ To customize the `searchbar.scss` file for your specific needs, you can make the
    }
    ```
 
-6. **Mobile-Specific Styles**: 
+7. **Mobile-Specific Styles**: 
    Customize the mobile view by modifying the styles within the smaller screen size media queries (e.g., `@media (max-width: 600px)`).
 
 Remember to test your changes across different screen sizes and both light and dark themes to ensure a consistent user experience. After making modifications, rebuild your Docusaurus project to see the changes take effect.
