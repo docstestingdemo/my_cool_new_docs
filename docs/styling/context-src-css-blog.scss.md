@@ -69,4 +69,11 @@ Remember to test your changes thoroughly across different devices and browsers t
 
 ## Customize Styling
 
-If you want to customize styling you can refere to the 
+If you want to customize styling, you can refer to the Docusaurus documentation on styling and layout. The documentation provides comprehensive guidance on how to modify the appearance of your site, including:
+
+1. Using CSS modules
+2. Implementing global styles
+3. Customizing the theme
+4. Creating and using custom components
+
+Additionally, you can explore the `src/css` directory in your Docusaurus project for other SCSS files that may affect the overall styling of your site. By understanding the structure and hierarchy of these files, you can make targeted changes to achieve your desired look and feel while maintaining consistency across your blog and documentation pages.
