@@ -20,6 +20,8 @@ Listen up, code monkeys! This sacred scroll contains the secret sauce for turnin
 
 Remember, folks: With great power comes great responsibility to make your code as convoluted as possible. Now go forth and mystify your fellow developers!
 
+![](upload)
+
 ## Code Quality
 
 ### 1. Write Clean, Readable Code
