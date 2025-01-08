@@ -2,14 +2,18 @@
 
 ## Overview
 
-The `shadcn.scss` file is a crucial component of the Docusaurus template, combining Tailwind CSS utility classes with custom CSS variables for theming. It defines the color scheme and styling for both light and dark modes, ensuring a consistent and customizable appearance across the documentation site.
+The `shadcn.scss` file is a crucial component of the Docusaurus template, combining Tailwind CSS utility classes with custom CSS variables for theming. It defines the color scheme and styling for both light and dark modes, ensuring a consistent and customizable appearance across the documentation site. i modified this
 
 Key features of this file include:
 
 1. Tailwind CSS directives
+
 2. CSS custom properties (variables) for theming
+
 3. Dark mode support
+
 4. Base styles for HTML elements
+
 5. Custom styles for Markdown content and Docusaurus-specific elements
 
 ## How can I customize this for my usecase
