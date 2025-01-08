@@ -44,3 +44,19 @@ To customize the `prose-table.scss` file for your specific use case, you can mod
 To implement these customizations, open the `prose-table.scss` file and modify the relevant CSS properties. After making your changes, make sure to rebuild your Docusaurus project to apply the updated styles.
 
 Remember to test your changes thoroughly to ensure they don't negatively impact the functionality or appearance of the ProseMirror editor in your Docusaurus template.
+
+## Additional Considerations
+
+When customizing the `prose-table.scss` file, keep in mind the following:
+
+1. **Responsive design:** Ensure that your customizations work well across different screen sizes and devices. You may need to use media queries to adjust styles for mobile and tablet views.
+
+2. **Accessibility:** Consider the impact of your style changes on accessibility. Maintain sufficient color contrast and ensure that interactive elements are easily identifiable and usable.
+
+3. **Browser compatibility:** Test your customizations in different browsers to ensure consistent rendering across platforms.
+
+4. **Performance:** Be mindful of the specificity and complexity of your selectors, as overly complex CSS can impact rendering performance.
+
+5. **Theme consistency:** If your Docusaurus site uses multiple themes or color schemes, ensure that your customizations work well with all of them.
+
+By considering these factors, you can create a customized and polished appearance for your ProseMirror editor while maintaining a high-quality user experience.
